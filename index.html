@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="ngKata">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Angular JS Kata Basic</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+
+<body ng-controller="mainCtrl">
+    <div class="container">
+        <h2>Angular is {{2>1}}ly working!</h2>
+
+        <ul class="list-group">
+            <li class="list-group-item">Install nodejs if it isn't already installed - https://nodejs.org/en/</li>
+            <li class="list-group-item">Create the directory for a project</li>
+            <li class="list-group-item">From the command line, open the folder of the project</li>
+            <li class="list-group-item">Set up the project by running npm commands:
+                <ol type="a">
+                    <li>npm init (keep defaults, except make entry point app.js rather than index.js)</li>
+                    <li>npm install jquery --save</li>
+                    <li>npm install angular --save</li>
+                    <li>npm install bootstrap --save</li>
+                </ol>
+            </li>
+            <li class="list-group-item">Create app.js</li>
+            <li class="list-group-item">Create index.html
+                <ol type="a">
+                    <li>emmet !
+                        <tab>
+                    </li>
+                    <li>in the html tag add ng-app attribute
+                    </li>
+                    <li>in head, create a
+                        <link> with href attribute pointing to ./node_modules/bootstrap/dist/css/bootstrap.css
+                    </li>
+                    <li>in the body tag add ng-controller attribute with name mainCtrl
+                    </li>
+                    <li>in body, create a div with inner text containing angular syntax such as: Angular is {{2>1}}ly working!
+                    </li>
+                    <li>emmet script:src with src attribute pointing to ./node_modules/jquery/dist/jquery.min.js
+                    </li>
+                    <li> emmet script:src with src attribute pointing to ./node_modules/bootstrap/dist/js/bootstrap.min.js
+                    </li>
+                    <li> emmet script:src with src attribute pointing to ./node_modules/angular/angular.min.js
+                    </li>
+                    <li> emmet script:src with src attribute pointing to app.js
+                    </li>
+                </ol>
+            </li>
+            <li class="list-group-item">Edit app.js
+                <ol type="a">
+                    <li>var app = angular.module('', []);</li>
+                    <li>app.controller('mainCtrl', function(){});</li>
+                </ol>
+            </li>
+            <li class="list-group-item">View the index.html in browser
+                <ol type="a">
+                    <li>start chrome index.html</li>
+                    <li>press F12 to view any errors if the display doesn't show correctly</li>
+                </ol>
+            </li>
+            </ol>
+    </div>
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./node_modules/angular/angular.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

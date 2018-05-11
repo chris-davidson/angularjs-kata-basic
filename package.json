@@ -1,0 +1,16 @@
+{
+  "name": "kata-basic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chris Davidson",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "angular": "^1.6.10",
+    "bootstrap": "^4.1.1"
+  }
+}
