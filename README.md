@@ -1,4 +1,6 @@
 # angularjs-kata-basic
 
-node must be installed 
-npm install must run
+<ul>
+  <li>node must be installed</li>
+  <li>npm install must run</li>
+</ul>
